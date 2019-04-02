@@ -62,24 +62,12 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (
-     sql-indent
-     gited
-     markdown-mode
-     ;;fsharp-mode
-     ag
-     ;;xref-js2
-     ;;js2-refactor
-     ;;js2-mode
-     jedi
-     projectile
-     project-explorer
-     ))))
+    (vcl-mode sql-indent gited markdown-mode ag jedi projectile project-explorer))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
- ;;your init file should contain only one such instance.
+ ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
 
