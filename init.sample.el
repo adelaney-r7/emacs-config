@@ -1,7 +1,7 @@
 (package-initialize)
 
-(load "~/.emacs.d/lisp/common.el")
-(load "~/.emacs.d/lisp/keymap.el")
+(load "~/.emacs.d/elisp/common.el")
+(load "~/.emacs.d/elisp/keymap.el")
 
 (custom-set-variables
  '(package-selected-packages
