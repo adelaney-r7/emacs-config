@@ -20,3 +20,8 @@
 
 (global-set-key (kbd "C-M-k") 'end-of-buffer)
 (global-set-key (kbd "C-M-l") 'beginning-of-buffer)
+
+(global-set-key (kbd "C-,") 'isearch-backward)
+(global-set-key (kbd "C-.") 'isearch-forward)
+(define-key isearch-mode-map (kbd "C-,") 'isearch-repeat-backward)
+(define-key isearch-mode-map (kbd "C-.") 'isearch-repeat-forward)
