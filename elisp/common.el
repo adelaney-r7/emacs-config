@@ -6,6 +6,7 @@
 (load-theme 'wombat)
 (desktop-save-mode 1)
 (setq column-number-mode t)
+(setq scroll-step 1)
 
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
 (add-to-list 'package-archives
